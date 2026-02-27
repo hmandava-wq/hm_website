@@ -131,7 +131,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-</head>
+<link rel="alternate" type="application/rss+xml" title="YOUR NAME" href="notebook.xml" data-external="1"></head>
 
 <body class="nav-fixed quarto-light">
 
@@ -165,6 +165,13 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="https://alcalalab.github.io/resources/"> 
 <span class="menu-text">Lab Handbook</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/hmandava-wq"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -349,7 +356,7 @@ Invalid Date
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/hmandava-wq\.github\.io\/hm_website\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
