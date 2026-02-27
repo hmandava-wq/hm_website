@@ -5,16 +5,16 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>YOUR NAME</title>
-<link>https://hmandava-wq.github.io/hm_website/notebook.html</link>
-<atom:link href="https://hmandava-wq.github.io/hm_website/notebook.xml" rel="self" type="application/rss+xml"/>
+<title>Harika Mandava</title>
+<link>https://github.com/hmandava-wq/notebook.html</link>
+<atom:link href="https://github.com/hmandava-wq/notebook.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Invalid Date</lastBuildDate>
 <item>
   <title>Spring Semester Goals</title>
   <dc:creator>Your Name</dc:creator>
-  <link>https://hmandava-wq.github.io/hm_website/posts/2026-02-18-goals.html</link>
+  <link>https://github.com/hmandava-wq/posts/2026-02-18-goals.html</link>
   <description><![CDATA[ 
 
 
@@ -65,9 +65,9 @@
  ]]></description>
   <category>goals</category>
   <category>daily-entries</category>
-  <guid>https://hmandava-wq.github.io/hm_website/posts/2026-02-18-goals.html</guid>
+  <guid>https://github.com/hmandava-wq/posts/2026-02-18-goals.html</guid>
   <pubDate>Invalid Date</pubDate>
-  <media:content url="https://hmandava-wq.github.io/hm_website/posts" medium="image"/>
+  <media:content url="https://github.com/hmandava-wq/posts" medium="image"/>
 </item>
 </channel>
 </rss>

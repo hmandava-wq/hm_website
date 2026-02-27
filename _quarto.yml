@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "YOUR NAME"
-  #site-url: YOUR GITHUB
+  title: "Harika Mandava"
+  site-url: https://github.com/hmandava-wq
   #google-analytics: # something to come here
-  site-url: https://hmandava-wq.github.io/hm_website/ # you must change this appropriately for RSS feeds to work properly
+
   navbar:
     logo: headshots/logo.png
     left:
