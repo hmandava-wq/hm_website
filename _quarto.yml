@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Harika Mandava"
-  site-url: https://github.com/hmandava-wq
+  site-url: https://hmandava-wq.github.io/hm_website/
   #google-analytics: # something to come here
 
   navbar:
@@ -18,7 +18,7 @@ website:
         href: https://alcalalab.github.io/resources/
     right:
       - icon: github
-        href: https://github.com/hmandava-wq
+        href: https://github.com/hmandava-wq/hm_website
   
   page-footer:
     left: |

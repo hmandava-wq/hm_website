@@ -1,1 +1,1 @@
-Sitemap: https://github.com/hmandava-wq/sitemap.xml
+Sitemap: https://hmandava-wq.github.io/hm_website/sitemap.xml
