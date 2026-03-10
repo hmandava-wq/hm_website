@@ -1,6 +1,6 @@
 ---
 title: "TEMPLATE - Copy this for new entries"
-author: "Your Name"
+author: Harika Mandava
 date: "YYYY-MM-DD"
 categories: [project-name, keyword1, keyword2]
 description: "Brief description of this notebook entry"
