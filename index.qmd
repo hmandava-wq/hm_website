@@ -6,10 +6,10 @@ page-layout: full
 ::: {.hero-grid}
 
 ::: {.hero-text}
-#### Transcriptome Contamination and Amoebozoa Habitat Transitions
+##### Protist Contamination Detection
 
 :::
-<!-- 
+<!--
 ::: {.hero-image}
 ![](headshots/){alt="" class="headshot"}
 ![](headshots/){alt="" class="fieldshot"}
@@ -23,9 +23,8 @@ page-layout: full
 ::: {.content-card}
 ## About Me
 
-Your info!
+I am an undergraduate student (class of 2028) at William and Mary majoring in Chemistry! My research interests include computational biology and bioinformatics, particularly analyzing single-cell transcriptomic data of microbial eukaryotes to help fill gaps in phylogenetic trees and identify contamination in sequencing datasets. In my free time, I love playing video games, ultimate frisbee, and reading.
 
-My name is Harika Mandava, and I am a sophomore on the pre-med track! 
 :::
 
 <hr class="section-divider">
@@ -34,18 +33,17 @@ My name is Harika Mandava, and I am a sophomore on the pre-med track!
 ## Contact
 
 ##### Harika Mandava
- 
 
-##### Email:  
-[hmandava (at) wm.edu](mailto:hmandava@wm.edu)  
 
-##### Mailing Address:    
+##### Email:
+[hmandava (at) wm.edu](mailto:hmandava@wm.edu)
+
+##### Mailing Address:
 [400 Stadium Drive, Williamsburg, VA]
 
 ---
 
 ### Find me online
 
-- [GitHub](https://github.com/hmandava-wq)  
+- [GitHub](https://github.com/hmandava-wq)
 :::
-
