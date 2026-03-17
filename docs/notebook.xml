@@ -293,17 +293,9 @@ font-style: inherit;">```</span></span></code></pre></div></div>
 <section id="observations" class="level2">
 <h2 class="anchored" data-anchor-id="observations">Observations</h2>
 <p>Record your observations.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/hmandava-wq/hm_website/blob/main/images/Domain_ViolinPlot.DATE.png" class="img-fluid figure-img"></p>
-<figcaption>Violin Plot</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="analysis" class="level1">
-<h1>Analysis</h1>
+<p><a href="../images/Domain_ViolinPlot.DATE.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://hmandava-wq.github.io/hm_website/images/Domain_ViolinPlot.DATE.png" class="img-fluid" style="width:30.0%"></a> # Analysis</p>
 <p>Describe any analysis performed.</p>
+</section>
 </section>
 <section id="discussion" class="level1">
 <h1>Discussion</h1>

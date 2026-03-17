@@ -76,8 +76,7 @@ plt.show()
 
 Record your observations.
 
-![Violin Plot](https://github.com/hmandava-wq/hm_website/blob/main/images/Domain_ViolinPlot.DATE.png)
-
+![](../images/Domain_ViolinPlot.DATE.png){width=30% .lightbox}
 # Analysis
 
 Describe any analysis performed.
