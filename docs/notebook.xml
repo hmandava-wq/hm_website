@@ -10,10 +10,10 @@
 <atom:link href="https://hmandava-wq.github.io/hm_website/notebook.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Invalid Date</lastBuildDate>
+<lastBuildDate>Fri, 06 Mar 2026 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Spring Semester Goals</title>
-  <dc:creator>Your Name</dc:creator>
+  <dc:creator>Harika Mandava</dc:creator>
   <link>https://hmandava-wq.github.io/hm_website/posts/2026-02-18-goals.html</link>
   <description><![CDATA[ 
 
@@ -28,19 +28,21 @@
 <section id="writing-and-manuscripts" class="level3">
 <h3 class="anchored" data-anchor-id="writing-and-manuscripts">Writing and Manuscripts</h3>
 <ol type="1">
-<li>Something</li>
+<li>Start introduction of contamination paper</li>
+<li>Start methods section of contamination paper</li>
 </ol>
 </section>
 <section id="analysis-and-benchwork" class="level3">
 <h3 class="anchored" data-anchor-id="analysis-and-benchwork">Analysis and Benchwork</h3>
 <ol type="1">
-<li>Something</li>
+<li>Complete contamination identification using clade summary tables</li>
+<li>Create figure legends summarizing contamination tables</li>
 </ol>
 </section>
 <section id="funding" class="level3">
 <h3 class="anchored" data-anchor-id="funding">Funding</h3>
 <ol type="1">
-<li>Something</li>
+<li>Submit Charles Center proposal</li>
 </ol>
 </section>
 <section id="other" class="level3">
@@ -54,9 +56,9 @@
 <section id="primary-skill-building" class="level1">
 <h1>Primary Skill Building</h1>
 <ul class="task-list">
-<li><label><input type="checkbox">something</label></li>
-<li><label><input type="checkbox">something</label></li>
-<li><label><input type="checkbox">something</label></li>
+<li><label><input type="checkbox">Data visualization using Python</label></li>
+<li><label><input type="checkbox">Scientific writing</label></li>
+<li><label><input type="checkbox">Interpreting BLAST results</label></li>
 </ul>
 
 
@@ -66,7 +68,7 @@
   <category>goals</category>
   <category>daily-entries</category>
   <guid>https://hmandava-wq.github.io/hm_website/posts/2026-02-18-goals.html</guid>
-  <pubDate>Invalid Date</pubDate>
+  <pubDate>Fri, 06 Mar 2026 05:00:00 GMT</pubDate>
   <media:content url="https://hmandava-wq.github.io/hm_website/posts" medium="image"/>
 </item>
 </channel>

@@ -1,7 +1,7 @@
 ---
 title: "Spring Semester Goals"
-author: "Your Name"
-date: "YYYY-MM-DD"
+author: "Harika Mandava"
+date: "2026-03-06"
 categories: [goals, daily-entries]
 description: "Spring 2026 Goals"
 image: ""
@@ -13,17 +13,19 @@ Spring 2026 goals
 
 ## Goals
 
-### Writing and Manuscripts 
+### Writing and Manuscripts
 
-1. Something
+1. Start introduction of contamination paper
+2. Start methods section of contamination paper
 
 ### Analysis and Benchwork
 
-1. Something
+1. Complete contamination identification using clade summary tables
+2. Create figure legends summarizing contamination tables
 
 ### Funding
 
-1. Something
+1. Submit Charles Center proposal
 
 ### Other
 
@@ -31,6 +33,6 @@ Spring 2026 goals
 
 # Primary Skill Building
 
-- [ ] something
-- [ ] something
-- [ ] something
+- [ ] Data visualization using Python
+- [ ] Scientific writing
+- [ ] Interpreting BLAST results
