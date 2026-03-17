@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Harika Mandava</title>
+<link>https://hmandava-wq.github.io/hm_website/notebook.html</link>
+<atom:link href="https://hmandava-wq.github.io/hm_website/notebook.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Fri, 06 Mar 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Spring Semester Goals</title>
+  <dc:creator>Harika Mandava</dc:creator>
+  <link>https://hmandava-wq.github.io/hm_website/posts/2026-02-18-goals.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Spring 2026 goals</p>
+<section id="goals" class="level2">
+<h2 class="anchored" data-anchor-id="goals">Goals</h2>
+<section id="writing-and-manuscripts" class="level3">
+<h3 class="anchored" data-anchor-id="writing-and-manuscripts">Writing and Manuscripts</h3>
+<ol type="1">
+<li>Start introduction of contamination paper</li>
+<li>Start methods section of contamination paper</li>
+</ol>
+</section>
+<section id="analysis-and-benchwork" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-and-benchwork">Analysis and Benchwork</h3>
+<ol type="1">
+<li>Complete contamination identification using clade summary tables</li>
+<li>Create figure legends summarizing contamination tables</li>
+</ol>
+</section>
+<section id="funding" class="level3">
+<h3 class="anchored" data-anchor-id="funding">Funding</h3>
+<ol type="1">
+<li>Submit Charles Center proposal</li>
+</ol>
+</section>
+<section id="other" class="level3">
+<h3 class="anchored" data-anchor-id="other">Other</h3>
+<ol type="1">
+<li>Set up digital notebook</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="primary-skill-building" class="level1">
+<h1>Primary Skill Building</h1>
+<ul class="task-list">
+<li><label><input type="checkbox">Data visualization using Python</label></li>
+<li><label><input type="checkbox">Scientific writing</label></li>
+<li><label><input type="checkbox">Interpreting BLAST results</label></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>goals</category>
+  <category>daily-entries</category>
+  <guid>https://hmandava-wq.github.io/hm_website/posts/2026-02-18-goals.html</guid>
+  <pubDate>Fri, 06 Mar 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://hmandava-wq.github.io/hm_website/posts" medium="image"/>
+</item>
+<item>
+  <title>Contamination Figure Generation</title>
+  <dc:creator>Harika Mandava</dc:creator>
+  <link>https://hmandava-wq.github.io/hm_website/posts/2026-03-17-entry.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Generated figures based on contamination clade summary tables</p>
+</section>
+<section id="goals" class="level1">
+<h1>Goals</h1>
+<ul>
+<li>Goal 1</li>
+<li>Goal 2</li>
+<li>Goal 3</li>
+</ul>
+</section>
+<section id="methods" class="level1">
+<h1>Methods</h1>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>Describe your setup or preparation.</p>
+</section>
+<section id="procedures" class="level2">
+<h2 class="anchored" data-anchor-id="procedures">Procedures</h2>
+<p>Describe the procedures followed.</p>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>Present your data here. You can include:</p>
+<ul>
+<li>Tables</li>
+<li>Figures</li>
+<li>Code outputs</li>
+</ul>
+<section id="example-code-block" class="level3">
+<h3 class="anchored" data-anchor-id="example-code-block">Example Code Block</h3>
+<pre class="{r}"><code># R code example
+# plot(x, y)</code></pre>
+<div id="6ed8e052" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Python code example</span></span>
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># import pandas as pd</span></span></code></pre></div></div>
+</div>
+</section>
+</section>
+<section id="observations" class="level2">
+<h2 class="anchored" data-anchor-id="observations">Observations</h2>
+<p>Record your observations.</p>
+</section>
+</section>
+<section id="analysis" class="level1">
+<h1>Analysis</h1>
+<p>Describe any analysis performed.</p>
+</section>
+<section id="discussion" class="level1">
+<h1>Discussion</h1>
+<p>Discuss findings, issues encountered, and next steps.</p>
+</section>
+<section id="next-steps" class="level1">
+<h1>Next Steps</h1>
+<ul class="task-list">
+<li><label><input type="checkbox">Task 1</label></li>
+<li><label><input type="checkbox">Task 2</label></li>
+<li><label><input type="checkbox">Task 3</label></li>
+</ul>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<p>List any references or related notebook entries.</p>
+<hr>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>Additional notes</li>
+<li>Troubleshooting</li>
+<li>Ideas for future work</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Protist-Contamination</category>
+  <category>Daily-Entries</category>
+  <guid>https://hmandava-wq.github.io/hm_website/posts/2026-03-17-entry.html</guid>
+  <pubDate>Thu, 05 Mar 2026 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

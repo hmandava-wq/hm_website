@@ -2,6 +2,7 @@
 title: "Contamination Figure Generation"
 author: Harika Mandava
 date: "2026-03-05"
+engine: jupyter
 categories: [Protist-Contamination, Daily-Entries]
 description: "Figures for contamination paper"
 draft: false

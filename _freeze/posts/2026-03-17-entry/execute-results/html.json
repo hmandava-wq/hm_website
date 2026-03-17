@@ -1,0 +1,12 @@
+{
+  "hash": "2f8c4a5d1f86e2c037f674fd936b9405",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Contamination Figure Generation\"\nauthor: Harika Mandava\ndate: \"2026-03-05\"\nengine: jupyter\ncategories: [Protist-Contamination, Daily-Entries]\ndescription: \"Figures for contamination paper\"\ndraft: false\n---\n\n# Overview\n\nGenerated figures based on contamination clade summary tables\n\n# Goals\n\n- Goal 1\n- Goal 2\n- Goal 3\n\n# Methods\n\n## Setup\n\nDescribe your setup or preparation.\n\n## Procedures\n\nDescribe the procedures followed.\n\n# Results\n\n## Data\n\nPresent your data here. You can include:\n\n- Tables\n- Figures\n- Code outputs\n\n### Example Code Block\n\n```{r}\n# R code example\n# plot(x, y)\n```\n\n::: {#6ed8e052 .cell execution_count=1}\n``` {.python .cell-code}\n# Python code example\n# import pandas as pd\n```\n:::\n\n\n## Observations\n\nRecord your observations.\n\n# Analysis\n\nDescribe any analysis performed.\n\n# Discussion\n\nDiscuss findings, issues encountered, and next steps.\n\n# Next Steps\n\n- [ ] Task 1\n- [ ] Task 2\n- [ ] Task 3\n\n# References\n\nList any references or related notebook entries.\n\n---\n\n## Notes\n\n- Additional notes\n- Troubleshooting\n- Ideas for future work\n\n",
+    "supporting": [
+      "2026-03-17-entry_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
