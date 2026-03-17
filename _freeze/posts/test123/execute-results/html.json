@@ -1,0 +1,12 @@
+{
+  "hash": "a3d162fb0681e94a43f522fdfb4d5c8d",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"TEMPLATE - Copy this for new entries\"\nauthor: Harika Mandava\ndate: \"YYYY-MM-DD\"\ncategories: [project-name, keyword1, keyword2]\ndescription: \"Brief description of this notebook entry\"\ndraft: true\n---\n\n# Overview\n\nBrief overview of what was done today.\n\n# Goals\n\n- testing\n- Goal 2\n- Goal 3\n\n# Methods\n\n## Setup\n\nDescribe your setup or preparation.\n\n## Procedures\n\nDescribe the procedures followed.\n\n# Results\n\n## Data\n\nPresent your data here. You can include:\n\n- Tables\n- Figures\n- Code outputs\n\n### Example Code Block\n\n::: {#414f28a5 .cell execution_count=1}\n``` {.python .cell-code}\n# Python code example\nimport pandas as pd\nprint('this better work')\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nthis better work\n```\n:::\n:::\n\n\n## Observations\n\nRecord your observations.\n\n# Analysis\n\nDescribe any analysis performed.\n\n# Discussion\n\nDiscuss findings, issues encountered, and next steps.\n\n# Next Steps\n\n- [ ] Task 1\n- [ ] Task 2\n- [ ] Task 3\n\n# References\n\nList any references or related notebook entries.\n\n---\n\n## Notes\n\n- Additional notes\n- Troubleshooting\n- Ideas for future work\n\n",
+    "supporting": [
+      "test123_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

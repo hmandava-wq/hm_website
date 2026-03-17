@@ -242,7 +242,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="goals" class="level1">
 <h1>Goals</h1>
 <ul>
-<li>Goal 1</li>
+<li>Test 1</li>
 <li>Goal 2</li>
 <li>Goal 3</li>
 </ul>
@@ -262,25 +262,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Results</h1>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>Present your data here. You can include:</p>
-<ul>
-<li>Tables</li>
-<li>Figures</li>
-<li>Code outputs</li>
-</ul>
 <section id="example-code-block" class="level3">
 <h3 class="anchored" data-anchor-id="example-code-block">Example Code Block</h3>
-<pre class="{r}"><code># R code example
-# plot(x, y)</code></pre>
-<div id="6ed8e052" class="cell" data-execution_count="1">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Python code example</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># import pandas as pd</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> defaultdict</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>contam_csvs <span class="op">=</span> glob.glob(<span class="st">'SRA_Contamination_Clade_Summaries_March_03_2026/*Major*.csv'</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>domains <span class="op">=</span> defaultdict(<span class="bu">dict</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>crap_csvs <span class="op">=</span> []</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> csv <span class="kw">in</span> contam_csvs:</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        df <span class="op">=</span> pd.read_csv(csv)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        crap_csvs.append(csv)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    same_counts <span class="op">=</span> <span class="bu">int</span>(df[df[<span class="st">'Sister_Counts'</span>] <span class="op">==</span> <span class="st">"SAME"</span>].Domain.values[<span class="dv">0</span>])</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    total_counts <span class="op">=</span> <span class="bu">int</span>(<span class="bu">sum</span>(df.Domain.values))</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    taxon <span class="op">=</span> csv.rpartition(<span class="st">"/"</span>)[<span class="dv">1</span>].partition(<span class="st">"."</span>)[<span class="dv">0</span>]</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    domains[taxon][<span class="st">'Total_Seqs'</span>] <span class="op">=</span> total_counts</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    domains[taxon][<span class="st">'Same_Domain'</span>] <span class="op">=</span> same_counts</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    domains[taxon][<span class="st">'Diff_Domain'</span>] <span class="op">=</span> total_counts <span class="op">-</span> same_counts</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    domains[taxon][<span class="st">'Proportion_Same_Domain'</span>] <span class="op">=</span> <span class="dv">100</span> <span class="op">*</span> same_counts <span class="op">/</span> total_counts</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>domain_df <span class="op">=</span> pd.DataFrame(domains).T</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>sns.jointplot(data<span class="op">=</span>domain_df, y<span class="op">=</span><span class="st">'Total_Seqs'</span>, kind<span class="op">=</span><span class="st">"kde"</span>)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>plt.yscale(<span class="st">'log'</span>)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>plt.xscale(<span class="dv">0</span>, <span class="dv">100</span>)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>sns.violinplot(data<span class="op">=</span>domain_df, y<span class="op">=</span><span class="st">'Proportion_Same_Domain'</span>)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>sns.distplot(data<span class="op">=</span>domain_df, x<span class="op">=</span><span class="st">'Total_Seqs'</span>, bins<span class="op">=</span>[<span class="dv">25</span>, <span class="dv">50</span>, <span class="dv">100</span>, <span class="dv">125</span>, <span class="dv">150</span>, <span class="dv">175</span>, <span class="dv">200</span>])</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 </section>
 <section id="observations" class="level2">
 <h2 class="anchored" data-anchor-id="observations">Observations</h2>
 <p>Record your observations.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/hmandava-wq/hm_website/tree/main/images/Domain_ViolinPlot.DATE.png" class="img-fluid figure-img"></p>
+<figcaption>Violin Plot</figcaption>
+</figure>
+</div>
 </section>
 </section>
 <section id="analysis" class="level1">

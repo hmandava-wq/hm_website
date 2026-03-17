@@ -13,7 +13,7 @@ Generated figures based on contamination clade summary tables
 
 # Goals
 
-- Goal 1
+- Test 1
 - Goal 2
 - Goal 3
 
@@ -31,13 +31,9 @@ Describe the procedures followed.
 
 ## Data
 
-![](images/screenshot.png)
-
 ### Example Code Block
 
-```{python}
-import glob, sys
-import pandas as pd
+```{{python}}
 import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import defaultdict
@@ -79,6 +75,8 @@ plt.show()
 ## Observations
 
 Record your observations.
+
+![Violin Plot](https://github.com/hmandava-wq/hm_website/tree/main/images/Domain_ViolinPlot.DATE.png)
 
 # Analysis
 

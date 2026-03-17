@@ -39,14 +39,14 @@
     "href": "posts/2026-03-17-entry.html#data",
     "title": "Contamination Figure Generation",
     "section": "Data",
-    "text": "Data\nPresent your data here. You can include:\n\nTables\nFigures\nCode outputs\n\n\nExample Code Block\n# R code example\n# plot(x, y)\n\n# Python code example\n# import pandas as pd"
+    "text": "Data\n\nExample Code Block\n```{python}\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nfrom collections import defaultdict\n\ncontam_csvs = glob.glob('SRA_Contamination_Clade_Summaries_March_03_2026/*Major*.csv')\ndomains = defaultdict(dict)\ncrap_csvs = []\n\nfor csv in contam_csvs:\n    try:\n        df = pd.read_csv(csv)\n    except:\n        crap_csvs.append(csv)\n        continue\n\n    same_counts = int(df[df['Sister_Counts'] == \"SAME\"].Domain.values[0])\n    total_counts = int(sum(df.Domain.values))\n    taxon = csv.rpartition(\"/\")[1].partition(\".\")[0]\n\n    domains[taxon]['Total_Seqs'] = total_counts\n    domains[taxon]['Same_Domain'] = same_counts\n    domains[taxon]['Diff_Domain'] = total_counts - same_counts\n    domains[taxon]['Proportion_Same_Domain'] = 100 * same_counts / total_counts\n\ndomain_df = pd.DataFrame(domains).T\n\nsns.jointplot(data=domain_df, y='Total_Seqs', kind=\"kde\")\nplt.yscale('log')\nplt.xscale(0, 100)\nplt.show()\n\nsns.violinplot(data=domain_df, y='Proportion_Same_Domain')\nplt.show()\n\nsns.distplot(data=domain_df, x='Total_Seqs', bins=[25, 50, 100, 125, 150, 175, 200])\nplt.show()\n```"
   },
   {
     "objectID": "posts/2026-03-17-entry.html#observations",
     "href": "posts/2026-03-17-entry.html#observations",
     "title": "Contamination Figure Generation",
     "section": "Observations",
-    "text": "Observations\nRecord your observations."
+    "text": "Observations\nRecord your observations.\n\n\n\nViolin Plot"
   },
   {
     "objectID": "posts/2026-03-17-entry.html#notes",
