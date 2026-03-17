@@ -32,18 +32,9 @@ Describe the procedures followed.
 
 ## Data
 
-Present your data here. You can include:
-
-- Tables
-- Figures
-- Code outputs
+![](images/screenshot.png)
 
 ### Example Code Block
-
-```{r}
-# R code example
-# plot(x, y)
-```
 
 ```{python}
 import glob, sys
