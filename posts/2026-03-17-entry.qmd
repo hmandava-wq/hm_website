@@ -1,5 +1,5 @@
 ---
-title: "Contamination Figure Generation"
+title: "Contamination Violin Plot"
 author: Harika Mandava
 date: "2026-03-05"
 categories: [Protist-Contamination, Daily-Entries]
@@ -9,7 +9,7 @@ draft: false
 
 # Overview
 
-Generated figures based on contamination clade summary tables
+Generated figures based on contamination clade summary tables using python
 
 # Goals
 
@@ -17,21 +17,12 @@ Generated figures based on contamination clade summary tables
 - Goal 2
 - Goal 3
 
-# Methods
-
-## Setup
-
-Describe your setup or preparation.
-
 ## Procedures
+1.  Download SRA_Contamination_Clade_Summaries_March_03_2026 (1).zip
+2.  Run Python code on terminal (see below)
 
-Describe the procedures followed.
 
-# Results
-
-## Data
-
-### Example Code Block
+# Figure Generation Code
 
 ```{{python}}
 import matplotlib.pyplot as plt
@@ -72,34 +63,14 @@ sns.distplot(data=domain_df, x='Total_Seqs', bins=[25, 50, 100, 125, 150, 175, 2
 plt.show()
 ```
 
-## Observations
+# Results
 
-Record your observations.
+![](../images/Domain_ViolinPlot.DATE.png){width=70% .lightbox}
 
-![](../images/Domain_ViolinPlot.DATE.png){width=30% .lightbox}
-
-# Analysis
-
-Describe any analysis performed.
-
-# Discussion
-
-Discuss findings, issues encountered, and next steps.
 
 # Next Steps
 
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
-
-# References
-
-List any references or related notebook entries.
+- [ ] Analyze generated plots and brainstorm contamination rules based on results
+- [ ] Start writing results section using plots
 
 ---
-
-## Notes
-
-- Additional notes
-- Troubleshooting
-- Ideas for future work
