@@ -14,18 +14,39 @@
     "text": "How to Explore This Notebook\n\nSearch: Use the search box to find entries by keywords\nFilter by Category: Click on categories to filter entries by project or topic\nSort: Sort entries by date, title, or other criteria\nBrowse: Scroll through all entries in chronological order"
   },
   {
-    "objectID": "posts/2026-03-17-entry.html",
-    "href": "posts/2026-03-17-entry.html",
-    "title": "Contamination Violin Plot",
+    "objectID": "posts/2026-05-28.html",
+    "href": "posts/2026-05-28.html",
+    "title": "Sampling!",
     "section": "",
-    "text": "Generated figures based on contamination clade summary tables using python"
+    "text": "Sampling was conducted at four different sites (James Beach, College Creek, Keck Environmental Field Lab Dock, Crim Dell)"
   },
   {
-    "objectID": "posts/2026-03-17-entry.html#procedures",
-    "href": "posts/2026-03-17-entry.html#procedures",
-    "title": "Contamination Violin Plot",
+    "objectID": "posts/2026-05-28.html#materials",
+    "href": "posts/2026-05-28.html#materials",
+    "title": "Sampling!",
+    "section": "Materials",
+    "text": "Materials\n\nSampling Jars\nPetri Dishes\nMicroscope"
+  },
+  {
+    "objectID": "posts/2026-05-28.html#procedures",
+    "href": "posts/2026-05-28.html#procedures",
+    "title": "Sampling!",
     "section": "Procedures",
-    "text": "Procedures\n\nDownload SRA_Contamination_Clade_Summaries_March_03_2026 (1).zip\nRun Python code on terminal (see below)"
+    "text": "Procedures\n\nRinse out sampling jar using a small amount of site water\nFill the sampling jar completely while submerged in water. Preferably collect the sample near a rock (scraping biofilm from the rock surface) or near algae.\nPour contents of sampling jar into a petri dish\nObserve contents underneath microscope"
+  },
+  {
+    "objectID": "posts/2026-05-28.html#observations",
+    "href": "posts/2026-05-28.html#observations",
+    "title": "Sampling!",
+    "section": "Observations",
+    "text": "Observations\nNo notable microbes were spotted in the samples collected :("
+  },
+  {
+    "objectID": "posts/2026-05-28.html#notes",
+    "href": "posts/2026-05-28.html#notes",
+    "title": "Sampling!",
+    "section": "Notes",
+    "text": "Notes\n\nAdditional notes\nTroubleshooting\nIdeas for future work"
   },
   {
     "objectID": "posts/2026-02-18-goals.html",
@@ -40,6 +61,20 @@
     "title": "Spring Semester Goals",
     "section": "",
     "text": "Start introduction of contamination paper\nStart methods section of contamination paper\n\n\n\n\n\nComplete contamination identification using clade summary tables\nCreate figure legends summarizing contamination tables\n\n\n\n\n\nSubmit Charles Center proposal\n\n\n\n\n\nSet up digital notebook"
+  },
+  {
+    "objectID": "posts/2026-03-17-entry.html",
+    "href": "posts/2026-03-17-entry.html",
+    "title": "Contamination Violin Plot",
+    "section": "",
+    "text": "Generated figures based on contamination clade summary tables using python"
+  },
+  {
+    "objectID": "posts/2026-03-17-entry.html#procedures",
+    "href": "posts/2026-03-17-entry.html#procedures",
+    "title": "Contamination Violin Plot",
+    "section": "Procedures",
+    "text": "Procedures\n\nDownload SRA_Contamination_Clade_Summaries_March_03_2026 (1).zip\nRun Python code on terminal (see below)"
   },
   {
     "objectID": "index.html#about-me",

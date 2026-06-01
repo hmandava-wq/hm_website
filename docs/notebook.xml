@@ -10,7 +10,72 @@
 <atom:link href="https://hmandava-wq.github.io/hm_website/notebook.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Fri, 06 Mar 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 28 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Sampling!</title>
+  <dc:creator>Harika Mandava</dc:creator>
+  <link>https://hmandava-wq.github.io/hm_website/posts/2026-05-28.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Sampling was conducted at four different sites (James Beach, College Creek, Keck Environmental Field Lab Dock, Crim Dell)</p>
+</section>
+<section id="goals" class="level1">
+<h1>Goals</h1>
+<ul>
+<li>Practice Sampling</li>
+</ul>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<ul>
+<li>Sampling Jars</li>
+<li>Petri Dishes</li>
+<li>Microscope</li>
+</ul>
+</section>
+<section id="procedures" class="level2">
+<h2 class="anchored" data-anchor-id="procedures">Procedures</h2>
+<ol type="1">
+<li>Rinse out sampling jar using a small amount of site water</li>
+<li>Fill the sampling jar completely while submerged in water. Preferably collect the sample near a rock (scraping biofilm from the rock surface) or near algae.</li>
+<li>Pour contents of sampling jar into a petri dish</li>
+<li>Observe contents underneath microscope</li>
+</ol>
+</section>
+<section id="observations" class="level2">
+<h2 class="anchored" data-anchor-id="observations">Observations</h2>
+<p>No notable microbes were spotted in the samples collected :(</p>
+</section>
+</section>
+<section id="next-steps" class="level1">
+<h1>Next Steps</h1>
+<ul class="task-list">
+<li><label><input type="checkbox">Try sampling again!</label></li>
+</ul>
+<hr>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>Additional notes</li>
+<li>Troubleshooting</li>
+<li>Ideas for future work</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Amoebozoa-Transitions</category>
+  <category>Daily-Entries</category>
+  <category>Summer2026</category>
+  <guid>https://hmandava-wq.github.io/hm_website/posts/2026-05-28.html</guid>
+  <pubDate>Thu, 28 May 2026 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Spring Semester Goals</title>
   <dc:creator>Harika Mandava</dc:creator>

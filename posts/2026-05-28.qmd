@@ -1,0 +1,49 @@
+---
+title: "Sampling!"
+author: Harika Mandava
+date: "2026-05-28"
+categories: [Amoebozoa-Transitions, Daily-Entries, Summer2026]
+description: "Practiced sampling"
+draft: false
+---
+
+# Overview
+
+Sampling was conducted at four different sites (James Beach, College Creek,
+Keck Environmental Field Lab Dock, Crim Dell)
+
+# Goals
+
+- Practice Sampling
+
+
+## Materials
+- Sampling Jars
+- Petri Dishes
+- Microscope
+
+## Procedures
+
+1. Rinse out sampling jar using a small amount of site water
+2. Fill the sampling jar completely while submerged in water. Preferably collect
+the sample near a rock (scraping biofilm from the rock surface) or near algae.
+3. Pour contents of sampling jar into a petri dish
+4. Observe contents underneath microscope
+
+## Observations
+
+No notable microbes were spotted in the samples collected :(
+
+# Next Steps
+
+- [ ] Try sampling again!
+
+
+
+---
+
+## Notes
+
+- Additional notes
+- Troubleshooting
+- Ideas for future work
