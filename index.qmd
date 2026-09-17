@@ -1,12 +1,12 @@
 ---
-title: Harika Mandava
+title: YOUR-NAME
 page-layout: full
 ---
 
 ::: {.hero-grid}
 
 ::: {.hero-text}
-##### Protist Contamination Detection
+#### PROJECT-INTEREST
 
 :::
 <!--
@@ -23,8 +23,9 @@ page-layout: full
 ::: {.content-card}
 ## About Me
 
-I am an undergraduate student (class of 2028) at William and Mary majoring in Chemistry! My research interests include computational biology and bioinformatics, particularly analyzing single-cell transcriptomic data of microbial eukaryotes to help fill gaps in phylogenetic trees and identify contamination in sequencing datasets. In my free time, I love playing video games, ultimate frisbee, and reading.
+Your info!
 
+Here you'll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings.
 :::
 
 <hr class="section-divider">
@@ -32,18 +33,18 @@ I am an undergraduate student (class of 2028) at William and Mary majoring in Ch
 ::: {.content-card}
 ## Contact
 
-##### Harika Mandava
+##### YOUR-NAME
 
 
 ##### Email:
-[hmandava (at) wm.edu](mailto:hmandava@wm.edu)
+[your-wm-username (at) wm.edu](mailto:wm-email-address)
 
 ##### Mailing Address:
-[400 Stadium Drive, Williamsburg, VA]
+
 
 ---
 
 ### Find me online
 
-- [GitHub](https://github.com/hmandava-wq)
+- [GitHub](your-github)
 :::

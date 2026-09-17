@@ -1,10 +1,29 @@
 [
   {
-    "listing": "/notebook.html",
+    "listing": "/reading-notes/index.html",
     "items": [
-      "/posts/2026-05-28.html",
-      "/posts/2026-02-18-goals.html",
-      "/posts/2026-03-17-entry.html"
+      "/reading-notes/demopaper1.html"
+    ]
+  },
+  {
+    "listing": "/meetings.html",
+    "items": [
+      "/projects/my-project/meeting-notes/meeting-1.html"
+    ]
+  },
+  {
+    "listing": "/projects/my-project/index.html",
+    "items": [
+      "/projects/my-project/meeting-notes/meeting-1.html",
+      "/reading-notes/demopaper1.html",
+      "/projects/my-project/idea-note1.html",
+      "/lab-notebook/week-of-2026-09-14.html"
+    ]
+  },
+  {
+    "listing": "/lab-notebook/index.html",
+    "items": [
+      "/lab-notebook/week-of-2026-09-14.html"
     ]
   }
 ]

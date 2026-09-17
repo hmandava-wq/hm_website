@@ -3,38 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: "Harika Mandava"
-  site-url: https://hmandava-wq.github.io/hm_website/
-  #google-analytics: # something to come here
-
+  title: "YOUR-NAME"
   navbar:
-    logo: headshots/logo.png
+    background: "#4A7862"
+    foreground: "#F3F3EE"
+    search: true
     left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Lab Notebook"
-        href: notebook.qmd
-      - text: "Lab Handbook"
-        href: https://alcalalab.github.io/resources/
-    right:
-      - icon: github
-        href: https://github.com/hmandava-wq/hm_website
-  
-  page-footer:
-    left: |
-      © 2026 Your Name
-
+      - lab-notebook/index.qmd
+      - reading-notes/index.qmd
+      - meetings.qmd
+      - text: "Projects"
+        menu:
+        - projects/my-project/index.qmd
+    sidebar:
+      contents: auto
 format:
   html:
-    theme: lux
+    theme: cosmo
     css: styles.css
     toc: true
-    toc-depth: 3
-    link-external-newwindow: true
-    link-external-icon: false
-
-execute:
-  freeze: auto
-
-
-
+    linkcolor: "#4A7862"
+    backgroundcolor: "#faf8f6"
+    code-block-bg: "#EEEEEE"
+    highlight-style: github
