@@ -1,12 +1,12 @@
 ---
-title: YOUR-NAME
+title: Harika Mandava
 page-layout: full
 ---
 
 ::: {.hero-grid}
 
 ::: {.hero-text}
-#### PROJECT-INTEREST
+#### Holobiome Contamination
 
 :::
 <!--
@@ -23,7 +23,10 @@ page-layout: full
 ::: {.content-card}
 ## About Me
 
-Your info!
+Hi, my name is Harika and I am a junior majoring in Chemistry! I am currently
+working on a tool that identifies by-catch in protist transcriptomes (sequences from organisms other than the intended target).
+My project explores whether this by-catch reflects contamination or potential biological relationships between species.
+
 
 Here you'll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings.
 :::
@@ -33,18 +36,18 @@ Here you'll find information about my research, outreach and education activitie
 ::: {.content-card}
 ## Contact
 
-##### YOUR-NAME
+##### Harika Mandava
 
 
 ##### Email:
-[your-wm-username (at) wm.edu](mailto:wm-email-address)
+[hmandava (at) wm.edu](mailto:hmandava@wm.edu)
 
 ##### Mailing Address:
-
+200 Stadium Dr, Williamsburg, VA 23186
 
 ---
 
 ### Find me online
 
-- [GitHub](your-github)
+- [GitHub](https://github.com/hmandava-wq/hm_website)
 :::
