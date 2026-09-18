@@ -1,8 +1,8 @@
 ---
-title: 'Demo paper title'
-author: Demo Author
-year: 2025
-projects: my-project
+title: 'Protists as mediators of complex microbial and viral associations'
+author: Schulz et al.
+year: 2024
+projects: protist_holobiome
 keywords: template
 ---
 
@@ -11,6 +11,21 @@ Put your annotated bibliography here!
 ## Paper Summary
 
 ## Key Points and Thoughts
-- some thought
-- another thought
-- interesting point
+Sampled hundreds of ciliate and testate amoeba
+Studied both the environment of the samples and their holobiomes
+Environment
+extract total DNA
+sequence all DNA
+assemble genomes (MAGs)
+identify organisms
+built co-occurrence networks
+Holobiome
+isolate individual cells
+whole genome amplification
+sequence amplified DNA
+separate sequences
+predict symbiotic relationships
+Broad Results:
+Single protist cells contained bacterial endosymbionts
+Protists co-occured with DNA viruses (found consistently)
+Protist-bacteria-virus interactions were found (multipartite associations)

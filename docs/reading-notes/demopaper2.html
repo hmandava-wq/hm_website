@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Demo Author">
+<meta name="keywords" content="template">
 
-<title>Reading notes – YOUR-NAME</title>
+<title>Demo paper title – YOUR-NAME</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -43,8 +43,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-7ea91a17b9975586b5756263c311978e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/videojs/video.min.js"></script>
-<link href="../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,65 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-year','listing-projects','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-year","listing-projects","listing-keywords"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -157,7 +97,7 @@ window.Quarto = {
 <span class="menu-text">Lab Notebook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../reading-notes/index.html" aria-current="page"> 
+    <a class="nav-link" href="../reading-notes/index.html"> 
 <span class="menu-text">Reading notes</span></a>
   </li>  
   <li class="nav-item">
@@ -191,10 +131,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
-  <li><a href="#making-a-new-reading-note" id="toc-making-a-new-reading-note" class="nav-link" data-scroll-target="#making-a-new-reading-note">Making a new “reading note”</a></li>
-  </ul></li>
+  <li><a href="#paper-summary" id="toc-paper-summary" class="nav-link active" data-scroll-target="#paper-summary">Paper Summary</a></li>
+  <li><a href="#key-points-and-thoughts" id="toc-key-points-and-thoughts" class="nav-link" data-scroll-target="#key-points-and-thoughts">Key Points and Thoughts</a></li>
   </ul>
 </nav>
     </div>
@@ -203,147 +141,51 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Reading notes</h1>
+<h1 class="title">Demo paper title</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Demo Author </p>
+          </div>
+  </div>
     
   
     
   </div>
   
 
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>template</p>
+  </div>
+</div>
 
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The <code>Reading Notes</code> landing page is for you to curate and maintain any articles, manuals, or media that is related in any way to your research. Ideally, this should be treated like an annotated bibliography. To make the most of this, make sure to include useful keywords and link to any relevant projects (when possible).</p>
-<p>Information on making new notes and editing them is below.</p>
-<hr>
-<section id="making-a-new-reading-note" class="level3">
-<h3 class="anchored" data-anchor-id="making-a-new-reading-note">Making a new “reading note”</h3>
-<p>To make a new reading note, simply make a copy the existing template and update the contents.</p>
-<p>The file also automatically gets added to a table of all such files, which is accessible from the <code>Reading Notes</code> landing page of the website.</p>
-<p>This file is also added to the <code>Reading Notes</code> section of each <code>Project</code> landing page.</p>
-<p>Creating and editing reading notes will be demonstrated in the video below – when Xyrus has the time!</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Video instructions to create and edit reading notes
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="../media/reading-notes-video.mp4"></video></div>
-</div>
-</div>
-</div>
-<hr>
-
+<p>Put your annotated bibliography here!</p>
+<section id="paper-summary" class="level2">
+<h2 class="anchored" data-anchor-id="paper-summary">Paper Summary</h2>
+</section>
+<section id="key-points-and-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="key-points-and-thoughts">Key Points and Thoughts</h2>
+<ul>
+<li>some thought</li>
+<li>another thought</li>
+<li>interesting point</li>
+</ul>
 
 
 </section>
-</section>
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-
-<th>
-year
-</th>
-
-<th>
-projects
-</th>
-
-<th>
-keywords
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-file-modified-sort="1789650042000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="Demo paper title" data-listing-filename-sort="demopaper2.qmd">
-<td>
-<a href="../reading-notes/demopaper2.html" class="title listing-title">Demo paper title</a>
-</td>
-<td>
-<span class="listing-author">Demo Author</span>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-projects">my-project</span>
-</td>
-<td>
-<span class="listing-keywords">template</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-file-modified-sort="1789751118363" data-listing-reading-time-sort="1" data-listing-word-count-sort="59" data-listing-title-sort="Protists as mediators of complex microbial and viral associations" data-listing-filename-sort="demopaper1.qmd">
-<td>
-<a href="../reading-notes/demopaper1.html" class="title listing-title">Protists as mediators of complex microbial and viral associations</a>
-</td>
-<td>
-<span class="listing-author">Schulz et al.</span>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-projects">protist_holobiome</span>
-</td>
-<td>
-<span class="listing-keywords">template</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -745,7 +587,6 @@ keywords
   });
   </script>
 </div> <!-- /content -->
-<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
